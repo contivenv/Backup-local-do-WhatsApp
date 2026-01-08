@@ -11,10 +11,14 @@
             "id": "285772fd1c6ab404",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "README"
             }
           }
         ]
@@ -188,5 +192,9 @@
     }
   },
   "active": "285772fd1c6ab404",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Ligando a depuração USB do dispositivo Android.md",
+    "restore_whatsapp.sh.md",
+    "backup_whatsapp.sh.md"
+  ]
 }
