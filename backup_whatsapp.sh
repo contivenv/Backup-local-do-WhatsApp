@@ -1,22 +1,3 @@
----
-tags:
-  - whatsapp
-  - backup
----
-Esse script quando executado via USB no celular Android com a porta aberta, ele realiza o backup de forma correta no dispositivo celular para a máquina do usuários.
-
-### Como usar
-
-1. Conecte o celular via USB (com depuração USB ativada).
-2. Rode o comando como administrador do seu sistema:
-```bash
-./backup_whatsapp.sh ~/Backups/WhatsApp-$(date +%Y%m%d)
-```
-**Observação**: Isso vai salvar tudo no diretório `~/Backups/WhatsApp-20250902` (por exemplo).
-
-3. Depois, se precisar restaurar, use o seu script com permissão de administrador no seu sistema (seja ele Windows ou Linux)`restore_whatsapp.sh` apontando para essa pasta.
-
-```bash
 #!/bin/bash
 
 # Script para criar backup local do WhatsApp do Android para o PC
@@ -90,7 +71,5 @@ adb pull "$WHATSAPP_PATH/Backups/." "$BACKUP_DEST/Backups/" 2>/dev/null
 print_status "Copiando mídia (pode demorar)..."
 adb pull "$WHATSAPP_PATH/Media/." "$BACKUP_DEST/Media/" 2>/dev/null
 
-print_status "✅ Backup concluído!"
+print_status "Backup concluído! ✅"
 print_warning "Se quiser restaurar depois, use o script restore_whatsapp.sh"
-
-```

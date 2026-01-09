@@ -11,14 +11,10 @@
             "id": "285772fd1c6ab404",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Nova aba"
             }
           }
         ]
@@ -191,10 +187,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "285772fd1c6ab404",
+  "active": "e501d0818801022a",
   "lastOpenFiles": [
-    "Ligando a depuração USB do dispositivo Android.md",
+    "restore_backup.sh",
+    "backup_whatsapp.sh",
+    "backup_whatsapp.sh.md",
     "restore_whatsapp.sh.md",
-    "backup_whatsapp.sh.md"
+    "Ligando a depuração USB do dispositivo Android.md",
+    "README.md"
   ]
 }

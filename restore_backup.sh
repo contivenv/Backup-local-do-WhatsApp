@@ -1,13 +1,7 @@
----
-tags:
-  - whatsapp
-  - restauração
----
-```bash
 #!/bin/bash
 
 # Script para restaurar backup do WhatsApp no Android
-# Uso: ./restore_whatsapp.sh /caminho/para/backup/fedora
+# Uso: ./restore_whatsapp.sh /caminho/para/backup
 
 # Cores para output
 RED='\033[0;31m'
@@ -126,4 +120,3 @@ echo "  4. Configure com o mesmo número de telefone"
 echo "  5. O WhatsApp detectará automaticamente o backup local"
 
 print_warning "💡 Dica: Não abra o WhatsApp antes de restaurar os arquivos!"
-```
